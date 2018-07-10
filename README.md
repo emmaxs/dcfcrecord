@@ -5,6 +5,9 @@ The responsibility of maintaining the Dartmouth College Fencing Club website has
 
 The best formal explanation for website maintainance can be found here https://github.com/utterbackj/DCFC-Website/blob/fcf4a5b7a816224df96ada42ba2e98968add29ef/README.md This is an excellent repository, but unfortunately, we have lost access to it with the graduation of said senior.
 
-This repository will contain only the public_html file, as I believe the other website components are unchanged from the original directory. It is highly recommended to use Fetch instead of Terminal. Contact an upperclassman for access credentials. Frank Sapienza is responsible for a wonderful bare minimum "Website Guide" located on the DCFC Google Drive.
+This repository will contain only the public_html file, as I believe the other website components are unchanged from the original directory. It is highly recommended to use Fetch instead of Terminal. Contact an upperclassman for access credentials. Frank Sapienza is responsible for a wonderful revised "Website Guide" located on the DCFC Google Drive.
 
 Please continue to back up the website from time to time - even if you're literally just downloading the files from the current website.
+
+Love,
+An Old Secretary/Webmaster
