@@ -1,110 +1,14 @@
 var roster = [
 	{
-		"name": "Carter H. Bartram",
-		"picture": "Dartmouth_Carter_Bartram.JPG",
-		"weapon": "Foil",
-		"gender": "male",
-		"year": "2018",
-		"major": "Physics",
-		"hobbies": "Physics research, Beatboxing",
-		"funfact": "https://www.youtube.com/TheFoilist",
-		"squadleader": false,
-		"active": true
-	},
-	{
-		"name": "Sam R. Gochman",
-		"picture": "Dartmouth_Samuel_Gochman.JPG",
-		"weapon": "Foil",
-		"gender": "male",
-		"year": "2018",
-		"major": "Biology modified with Anthropology",
-		"hobbies": "Research, Craft brewing, Jazz saxophone",
-		"funfact": "I can make a wave with my eyebrows",
-		"squadleader": true,
-		"active": true
-	},
-	{
-		"name": "Michelle Dundek",
-		"picture": "dundekm.jpg",
-		"weapon": "Foil",
-		"gender": "female",
-		"year": "2018",
-		"major": "Undecided",
-		"hobbies": "Hiking, Swimming, Drawing",
-		"funfact": "I've been interviewed by the Chinese government.",
-		"squadleader": true,
-		"active": true
-	},
-	{
-		"name": "Acacia Hoisington",
-		"picture": "Dartmouth_Acacia_Hoisington.jpg",
-		"weapon": "Epee",
-		"gender": "female",
-		"year": "2018",
-		"major": "Computer Science modified with Economics",
-		"hobbies": "Hiking and exploring the outdoors, Scuba diving, Playing in the snow, Ice climbing, Piano, Aquinas House",
-		"funfact": "My name is a tree, a flower, a wine, a honey, and an ingredient in root beer.",
-		"squadleader": false,
-		"active": true
-	},
-	{
-		"name": "Raphael E. Hviding",
-		"picture": "Dartmouth_Raphael_Hviding.JPG",
-		"weapon": "Epee",
-		"gender": "male",
-		"year": "2018",
-		"major": "Physics, Mathematics; Astronomy Minor",
-		"hobbies": "Researching with an Astronomy group on campus, Stargazing, Netflix, Spending time with my friends",
-		"funfact": "I try to keep my walls colorful by filling them with posters. Including the ceiling. I like to call myself the Skyentist.",
-		"squadleader": true,
-		"active": true
-	},
-	{
-		"name": "Jerrel L. Catlett",
-		"picture": "catlettj.jpg",
-		"weapon": "Sabre",
-		"gender": "male",
-		"year": "2018",
-		"major": "Biological Sciences, Italian Minor",
-		"hobbies": "Collecting Novelties, Sketching, Street Performing (Alto Saxophone), Critically Analyzing Sharknado, Pokemon Master, Capture the Flag",
-		"funfact": "Superman has been my favorite hero since I was two years old.",
-		"squadleader": false,
-		"active": false
-	},
-	{
-		"name": "Kaleigh Mentzer",
-		"picture": "mentzerk.jpg",
-		"weapon": "Sabre",
-		"gender": "female",
-		"year": "2018",
-		"major": "Physics",
-		"hobbies": "Physics research, First year peer mentor",
-		"funfact": "I've jumped rope every single day since I was 9.",
-		"squadleader": true,
-		"active": true
-	},
-	{
-		"name": "Manuel Figueroa",
-		"picture": "Dartmouth_Manuel_Figueroa.JPG",
-		"weapon": "Sabre",
-		"gender": "male",
-		"year": "2018",
-		"major": "Government; Public Policy Minor",
-		"hobbies": "Reading, Writing, Stargazing, Playing with highly combustible items",
-		"funfact": "I accidently sold stolen granola bars to a millionaire when I was 16.",
-		"squadleader": true,
-		"active": true
-	},
-	{
 		"name": "Ellie Ng",
 		"picture": "nge.jpg",
 		"weapon": "Foil",
 		"gender": "female",
 		"year": "2019",
-		"major": "Engineering?",
+		"major": "Engineering",
 		"hobbies": "Art (WATERCOLOR!), Anime, Cute things :3",
 		"funfact": "I am secretly a unicorn in disguise.",
-		"squadleader": false,
+		"squadleader": true,
 		"active": true
 	},
 	{
@@ -116,7 +20,7 @@ var roster = [
 		"major": "Economics, Government; Chinese Minor",
 		"hobbies": "Commercial aviation",
 		"funfact": "I'm the most approachable and nicest 19 on the team... ಠ_ಠ",
-		"squadleader": false,
+		"squadleader": true,
 		"active": true
 	},
 	{
@@ -132,30 +36,6 @@ var roster = [
 		"active": true
 	},
 	{
-		"name": "Annie Furman",
-		"picture": "furmana.jpg",
-		"weapon": "Epee",
-		"gender": "female",
-		"year": "2019",
-		"major": "Linguistics, Theater",
-		"hobbies": "Horseback riding, Writing, Hiking, Singing along poorly to musicals",
-		"funfact": "I can center a horse holding a full cup of water without spilling it.",
-		"squadleader": false,
-		"active": false
-	},
-	{
-		"name": "Ian Ali",
-		"picture": "alii.png",
-		"weapon": "Epee",
-		"gender": "male",
-		"year": "2019",
-		"major": "Undecided",
-		"hobbies": "MAV, EE Just, College Freethinkers Club",
-		"funfact": "I met Bill Clinton.",
-		"squadleader": false,
-		"active": false
-	},
-	{
 		"name": "William Wolfe-McGuire",
 		"picture": "Dartmouth_William_McGuire.JPG",
 		"weapon": "Sabre",
@@ -164,7 +44,7 @@ var roster = [
 		"major": "Undecided",
 		"hobbies": "Violin, Cello",
 		"funfact": "I don't have any fun facts.",
-		"squadleader": false,
+		"squadleader": true,
 		"active": true
 	},
 	{
@@ -188,7 +68,7 @@ var roster = [
 		"major": "Mathematics",
 		"hobbies": "",
 		"funfact": "",
-		"squadleader": false,
+		"squadleader": true,
 		"active": true
 	},
 	{
@@ -237,7 +117,7 @@ var roster = [
 		"hobbies": "",
 		"funfact": "",
 		"squadleader": false,
-		"active": false
+		"active": true
 	},
 	{
 		"name": "Sean Hawkins",
@@ -252,30 +132,6 @@ var roster = [
 		"active": true
 	},
 	{
-		"name": "Fang Zhou",
-		"picture": "zhouf.jpg",
-		"weapon": "Sabre",
-		"gender": "female",
-		"year": "2020",
-		"major": "",
-		"hobbies": "",
-		"funfact": "",
-		"squadleader": false,
-		"active": false
-	},
-	{
-		"name": "April Johnson",
-		"picture": "johnsona.jpg",
-		"weapon": "Sabre",
-		"gender": "female",
-		"year": "2020",
-		"major": "",
-		"hobbies": "",
-		"funfact": "",
-		"squadleader": false,
-		"active": false
-	},
-	{
 		"name": "Jason Wei",
 		"picture": "weij.jpg",
 		"weapon": "Epee",
@@ -285,10 +141,10 @@ var roster = [
 		"hobbies": "Formula One Club",
 		"funfact": "I work in artificial intelligence.",
 		"squadleader": false,
-		"active": true
+		"active": false
 	},
 	{
-		"name": "Nate Neumann",
+		"name": "Sophia Neumann",
 		"picture": "neumannn.jpg",
 		"weapon": "Epee",
 		"gender": "male",
@@ -321,7 +177,7 @@ var roster = [
 		"hobbies": "",
 		"funfact": "",
 		"squadleader": false,
-		"active": true
+		"active": false
 	},
 	{
 		"name": "Jonathan Gliboff",
@@ -356,7 +212,7 @@ var roster = [
 		"major": "Mathematics",
 		"hobbies": "Hiking, Short socks",
 		"funfact": "FFC",
-		"squadleader": false,
+		"squadleader": true,
 		"active": true
 	},
 	{
@@ -466,67 +322,67 @@ var roster = [
 			"funfact": "I ran around the homecoming fire 121 times.",
 			"squadleader": false,
 			"active": true
+	},
+	{
+			"name": "Christian Murray",
+			"picture": "Dartmouth_Christian_Murray.jpg",
+			"weapon": "Epee",
+			"gender": "male",
+			"year": "2021",
+			"major": "Astronomy",
+			"hobbies": "Crypto and WorldStar HipHop",
+			"funfact": "I bought bitcoin before it was cool",
+			"squadleader": false,
+			"active": true
 		},
 		{
-				"name": "Christian Murray",
-				"picture": "Dartmouth_Christian_Murray.jpg",
-				"weapon": "Epee",
-				"gender": "male",
-				"year": "2021",
-				"major": "Astronomy",
-				"hobbies": "Crypto and WorldStar HipHop",
-				"funfact": "I bought bitcoin before it was cool",
-				"squadleader": false,
-				"active": true
-			},
-			{
-				"name": "Sophia Wugang",
-				"picture": "Dartmouth_Sophia_Wugang.jpg",
+			"name": "Sophia Wugang",
+			"picture": "Dartmouth_Sophia_Wugang.jpg",
+			"weapon": "Epee",
+			"gender": "female",
+			"year": "2021",
+			"major": "Undecided",
+			"hobbies": "Photography and Makeup",
+			"funfact": "My hair color changes with my mood",
+			"squadleader": false,
+			"active": true
+		},
+		{
+				"name": "Stephanie Rivera-Ithier",
+				"picture": "Dartmouth_Stephanie_Rivera-Ithier.jpg",
 				"weapon": "Epee",
 				"gender": "female",
 				"year": "2021",
-				"major": "Undecided",
-				"hobbies": "Photography and Makeup",
-				"funfact": "My hair color changes with my mood",
+				"major": "Spanish",
+				"hobbies": "Certainly not pushups",
+				"funfact": "I can't do a push-up",
 				"squadleader": false,
 				"active": true
 			},
 			{
-					"name": "Stephanie Rivera-Ithier",
-					"picture": "Dartmouth_Stephanie_Rivera-Ithier.jpg",
-					"weapon": "Epee",
-					"gender": "female",
-					"year": "2021",
-					"major": "Spanish",
-					"hobbies": "Certainly not pushups",
-					"funfact": "I can't do a push-up",
-					"squadleader": false,
-					"active": true
-				},
-				{
-					"name": "Drew Kaler",
-					"picture": "Dartmouth_Andrew_Kaler.jpg",
-					"weapon": "Epee",
-					"gender": "male",
-					"year": "2021",
-					"major": "Music",
-					"hobbies": "Guitar",
-					"funfact": "I can sing crazy high",
-					"squadleader": false,
-					"active": true
-				},
-				{
-					"name": "Jake Epstein",
-					"picture": "Dartmouth_Jake_Epstein.jpg",
-					"weapon": "Sabre",
-					"gender": "male",
-					"year": "2021",
-					"major": "Economics",
-					"hobbies": "Varied",
-					"funfact": "I have a premium coffee start-up",
-					"squadleader": false,
-					"active": true
-				}
+				"name": "Drew Kaler",
+				"picture": "Dartmouth_Andrew_Kaler.jpg",
+				"weapon": "Epee",
+				"gender": "male",
+				"year": "2021",
+				"major": "Music",
+				"hobbies": "Guitar",
+				"funfact": "I can sing crazy high",
+				"squadleader": false,
+				"active": true
+			},
+			{
+				"name": "Jake Epstein",
+				"picture": "Dartmouth_Jake_Epstein.jpg",
+				"weapon": "Sabre",
+				"gender": "male",
+				"year": "2021",
+				"major": "Economics",
+				"hobbies": "Varied",
+				"funfact": "I have a premium coffee start-up",
+				"squadleader": false,
+				"active": false
+			}
 
 
 ]
